@@ -1,7 +1,7 @@
 echo running tests for django
 UUID=$(cat /proc/sys/kernel/random/uuid)
 
-pass "Unable to start the $VERSION container" docker run --privileged=true -d --name $UUID nanobox/build-django sleep 365d
+pass "Unable to start the $VERSION container" docker run --privileged=true -d --name $UUID mubox/build-django sleep 365d
 
 defer docker kill $UUID
 

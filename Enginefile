@@ -1,9 +1,9 @@
-# The Enginefile provides Nanobox with information about the engine
-# View the documentation at https://docs.nanobox.io/engines/enginefile/
+# The Enginefile provides Microbox with information about the engine
+# View the documentation at https://docs.microbox.cloud/engines/enginefile/
 
 name: 'django'
 version: '0.1.0'
-summary: 'Nanobox engine for the django framework'
+summary: 'Microbox engine for the django framework'
 language: python
 stability: 'stable'
 license: 'MIT'
